@@ -152,41 +152,29 @@ else "80-90")
 4. Do OCD levels differ significantly by genre?
 
 ## Insights
-**Distribution of Anxiety Levels by Favorite Music Genre & Age Group**
-   * Younger age groups (especially 19–25) show higher counts of medium to high anxiety across genres such as Pop, Rock, Hip Hop, and EDM.
-
+**Anxiety Severity by Music Genre Across Age Groups**
+* Younger age groups (especially 19–25) show higher counts of medium to high anxiety across genres such as Pop, Rock, Hip Hop, and EDM.
 * Genres like Classical, Jazz, and Gospel tend to show higher concentrations of low anxiety levels, particularly in older age groups.
-
 * High-energy genres appear more frequently associated with elevated anxiety levels among younger respondents.
 
-
-**Distribution of Depression Levels by Favorite Music Genre & Age Group**
+**Depression Severity by Music Genre Across Age Groups**
 * Pop, Rock, Rap, and Hip Hop show higher counts of medium and high depression, especially in the 19–25 and 26–35 age groups.
-
 * Classical and Jazz listeners consistently report lower depression levels across age groups.
-
 * Older age groups show fewer high-depression responses overall.
 
-**Distribution of Insomnia Levels by Favorite Music Genre & Age Group**
+**Insomnia Severity by Music Genre Across Age Groups**
 * High insomnia levels are most visible among listeners of Pop, Rock, EDM, and Video Game Music.
-
 * Genres such as Lofi, Classical, and Jazz show a stronger presence of low to medium insomnia levels.
-
 * Insomnia appears more prominent in younger age groups regardless of genre.
 
-**Distribution of OCD Levels by Favorite Music Genre & Age Group**
+**OCD Severity by Music Genre Across Age Groups**
 * Medium OCD levels dominate across most genres, indicating consistency rather than extreme variation.
-
 * Higher counts of high OCD levels appear in genres such as Pop, Rock, and EDM, particularly among younger respondents.
-
 * Older age groups report fewer high OCD levels overall.
 
-**Effects of Music on Mental Health**
-
+**Impact of Music Preferences on Mental Health**
 * The majority of respondents report that music improves their mental health.
-
 * Rock, Pop, Hip Hop, and R&B show the highest counts of perceived improvement.
-
 * A smaller but notable group reports that certain genres worsen their mental health, most often within high-energy or emotionally intense genres.
 
 
