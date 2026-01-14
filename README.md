@@ -21,24 +21,67 @@ Favorite Genre (most frequently listened to music genre)
 Mental health condition levels:
 
 * Low
-
 * Medium
-
 * High
 
 Perceived effect of music on mental health:
 
 * Improves
-
 * No effect
-
 * Worsens
 
 Visualizations were created in Power BI to analyze distributions and comparisons across categories.
 
 ## Data Cleaning and Transformation
 
+SQL was used to clean and standardize the survey dataset prior to analysis.
+
+Key steps included:
+* Imputing missing age values using median calculation
+* Renaming columns for consistency and BI compatibility
+* Normalizing categorical values for accurate aggregation
+
+## SQL Code
+
+```
+-- 1. Calculate median age to for Age field with blank values
+WITH MedianAgeCTE AS (
+    SELECT 
+        PERCENTILE_CONT(0.5)
+            WITHIN GROUP (ORDER BY TRY_CAST(Age AS NUMERIC(10,2)))
+            OVER() AS CalculatedMedian
+    FROM dbo.survey_results
+    WHERE Age IS NOT NULL
+),
+SingleMedian AS (
+    SELECT TOP 1 CalculatedMedian
+    FROM MedianAgeCTE
+)
+
+-- 2. Update blank Age values with median
+UPDATE s
+SET Age = CONVERT(VARCHAR, sm.CalculatedMedian)
+FROM dbo.survey_results s
+CROSS JOIN SingleMedian sm
+WHERE s.Age IS NULL
+   OR s.Age = '';
+
+-- 3. Renaming Music effects column for consistency and usability
+EXEC sp_rename 'dbo.survey_results.[Music effects]', 'MusicEffects', 'COLUMN';
+
+-- 4. Replace blank MusicEffects values with 'No effect'
+UPDATE dbo.survey_results
+SET MusicEffects = 'No effect'
+WHERE MusicEffects = '';
+```
+
+## Feature Engineering & Data Modeling (Power BI)
+
+To support analysis and visualization, I created calculated columns using DAX and Power Query.
+These transformations standardized the age ranges and mental health severity levels.
+
 #### Age Group Column
+
 ```
 AgeGroup = 
 SWITCH(
@@ -148,3 +191,4 @@ else "80-90")
 
 
 ## Dashboard
+
