@@ -190,5 +190,12 @@ else "80-90")
 * A smaller but notable group reports that certain genres worsen their mental health, most often within high-energy or emotionally intense genres.
 
 
-## Dashboard
+## Dashboards
+
+
+![Restaurant Ratings Analysis_page-0001](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/AnxietyDashboard.jpeg)
+![Restaurant Ratings Analysis_page-0002](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/DepressionDashboard.jpeg)
+![Restaurant Ratings Analysis_page-0003](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/InsomniaDashboard.jpeg)
+![Restaurant Ratings Analysis_page-0004](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/OCDDashboard.jpeg)
+![Restaurant Ratings Analysis_page-0005](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/MusicEffectsDashboard.jpeg)
 
