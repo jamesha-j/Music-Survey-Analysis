@@ -193,9 +193,9 @@ else "80-90")
 ## Dashboards
 
 
-![Restaurant Ratings Analysis_page-0001](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/AnxietyDashboard.jpeg)
-![Restaurant Ratings Analysis_page-0002](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/DepressionDashboard.jpeg)
-![Restaurant Ratings Analysis_page-0003](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/InsomniaDashboard.jpeg)
-![Restaurant Ratings Analysis_page-0004](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/OCDDashboard.jpeg)
-![Restaurant Ratings Analysis_page-0005](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/MusicEffectsDashboard.jpeg)
+![Anxiety](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/AnxietyDashboard.jpeg)
+![Depression](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/DepressionDashboard.jpeg)
+![Insomnia](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/InsomniaDashboard.jpeg)
+![OCD](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/OCDDashboard.jpeg)
+![Music Effects](https://github.com/jamesha-j/Music-Survey-Analysis/blob/main/MusicEffectsDashboard.jpeg)
 
